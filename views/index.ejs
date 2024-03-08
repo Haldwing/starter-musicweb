@@ -1,0 +1,64 @@
+<%- include("partials/header.ejs") %>
+<div class="container1">
+<div class="container">
+  <h1>Rock 'n' Roll Writing History Index</h1>
+  <div class="pic-container1stpage">
+    <div class="linkbox">
+      <% blog.forEach((post) => { %>
+        <a href="/posts/<%= post.title %>" class="linkstyling"><div class="link">
+          <%= post.title %><br/><br/>
+          <%= post.year %>
+        </div></a>
+      <% }); %>
+    </div>
+  </div>
+</div></div>
+<div class="container">
+  <h1>Rolling Stones Writing Index</h1>
+  <div class="pic-container">
+    <div class="linkbox">
+      <a class="linkstyling" href="./blogpost4">
+        <div class="link">
+          Karen Durbin<br />
+          <br />Village Voice June 23, 1975
+        </div>
+      </a>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div id="repl-title"><h1>The Replacements Index</h1></div>
+  <div class="pic-container2">
+    <div class="linkbox2">
+      <a class="linkstyling" href="./blogpost1">
+        <div class="link">
+          Rob Sheffield<br />
+          Rolling Stone<br />
+          September 25, 2023
+        </div>
+      </a>
+      <a class="linkstyling" href="./blogpost2"
+        ><div class="link">
+          Keith Harris<br />Racket Minneapolis<br />September 25, 2023
+        </div></a
+      >
+      <a class="linkstyling" href="./blogpost3"
+        ><div class="link">
+          Rj Smith<br />Village Voice<br />December 11, 1984
+        </div></a
+      >
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div id="misc-title"><h1>Miscellaneous Writing Index</h1></div>
+
+  <div class="pic-container3">
+    <div class="linkbox3">
+      <a class="linkstyling" href="./blogpost5"
+        ><div class="link">Lester Bangs<br />Stranded<br />1979</div></a
+      >
+    </div>
+  </div>
+</div>
