@@ -1,0 +1,14 @@
+<%- include("partials/header.ejs") %>
+<h1 id="compose-title">New Post</h1>
+<div class="composecontainer">
+  <form action="/compose" method="post">
+    <h3>Title</h3>
+    <input class="inputboxes" type="text" name="postTitle" rows="1" /><br />
+    <h3>Date</h3>
+    <input class="inputboxes" type="text" name="postYear" rows="1" /><br />
+    <h3>Post</h3>
+    <textarea type="text" name="postProper" rows="8" cols="60"></textarea
+    ><br /><br />
+    <button class="publishBtn" type="submit" name="button">Publish</button>
+  </form>
+</div>
