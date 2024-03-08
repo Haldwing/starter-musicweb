@@ -52,6 +52,10 @@ app.get("/blogpost5", (req, res) => {
   res.sendFile(__dirname + "/public/blog posts/lesterbangs1.html");
 });
 
+app.get("/blogpost6", (req, res) => {
+  res.sendFile(__dirname + "/public/blog posts/lesterbangs2.html");
+});
+
 app.get("/posts/:page", (req, res) => {
   const reqTitle = _.lowerCase(req.params.page);
   blogPosts.forEach((post) => {
