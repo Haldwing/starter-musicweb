@@ -1,0 +1,27 @@
+html {
+  background-color: rgb(43, 9, 9);
+}
+
+p {
+  color: firebrick;
+}
+h1 {
+  color: red;
+  text-align: center;
+  left: 32%;
+}
+
+h3 {
+  text-align: center;
+  color: rgb(197, 56, 56);
+}
+.text-container {
+  width: 600px;
+  position: absolute;
+  left: 32%;
+  text-align: center;
+}
+
+.titleheadline {
+  font-size: 2rem;
+}
